@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.par {
+  text-align: center;
+
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.button {
+  font-size: 40px;
+  line-height: 1.4;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: green;
+  color: white;
+  border: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 20px;
+    padding: 1rem;
+  }
+}
